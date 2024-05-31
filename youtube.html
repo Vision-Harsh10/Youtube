@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="youtube.css" />
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link href="Youtube_logo.png">
+    <title>YouTube-Clone</title>
+    <style>
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+      }
+    </style>
+  </head>
+
+  <body style="padding-bottom: 200px;
+  padding-top: 100px;
+  padding-left: 140px;
+  background-color: rgb(249, 249, 249);">
+    <div class="header">
+
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+
+      <div class="middle-section">
+        <input class="Search-box" type="text" placeholder="Search" />
+        <button class="b1">
+          <img class="search" src="icons/search.svg" />
+        </button>
+        <button class="b2">
+          <img class="voice-search" src="icons/voice-search-icon.svg" />
+        </button>
+      </div>
+
+      <div class="right-section">
+        <img class="upload" src="icons/upload.svg" />
+        <img class="youtube-apps" src="icons/youtube-apps.svg" />
+        <img class="notifications" src="icons/notifications.svg" />
+        <img class="profile-picture" src="thumbnai/unnamed.jpg"/>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-box">
+        <img  src="icons/home.svg" >
+        <div>Home</div>
+      </div>
+      <div class="sidebar-box">
+        <img  src="icons/explore.svg" >
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-box">
+        <img  src="icons/subscriptions.svg" >
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-box">
+        <img  src="icons/originals.svg" >
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-box">
+        <img  src="icons/youtube-music (1).svg">
+        <div>Youtube-music</div>
+      </div>
+      <div class="sidebar-box">
+        <img  src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+
+
+    <div class="video-grid">
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/_eBxJWRHV48?si=F5vsZuFPGBub6e8b" target="_blank">
+          <img class="thumbnail" src="thumbnai/Thumnail.jpg" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/Profile-picture.jpg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/_eBxJWRHV48?si=F5vsZuFPGBub6e8b" target="_blank">How to Crush a 500, Every Step Explained</a>
+            <p class="Channel-name">GMHikaru &check;</p>
+            <p class="Video-Reach">967K views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/G3e-cpL7ofc?si=DLH0UWl93Y1-R3_d" target = "_blank">
+          <img class="thumbnail" src="thumbnai/SSDWeb.jpg"/>
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/SSD.jpg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+               href="  https://youtu.be/G3e-cpL7ofc?si=DLH0UWl93Y1-R3_d"  target="_blank">HTML & CSS Full Course - Beginner to Pro</a>
+            </p> 
+            <p class="Channel-name">SuperSimpleDev &check;</p>
+            <p class="Video-Reach">2.5K views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/jsagymFRQ3M?si=br6-ncylOb9zNZc_" target="_blank" >
+          <img class="thumbnail" src="thumbnai/ajay.jpg" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/ajayS.jpg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/jsagymFRQ3M?si=br6-ncylOb9zNZc_"  target="_blank">
+                Is This the Best Monitor for Programmers and Developers ? BENQ
+                RD240Q
+              </a>
+            </p>
+            <p class="Channel-name">Ajay Raj &check;</p>
+            <p class="Video-Reach">9.5K views &#183; 6 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/d31QlY_Y-BI?si=rzqL1ur-zo1djtqh" target="_blank" ></a>
+          <img class="thumbnail" src="thumbnai/TVF.jpg" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/TVFlogo.jpg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/d31QlY_Y-BI?si=rzqL1ur-zo1djtqh"  target="_blank">
+              Very Parivarik | A TVF Weekly Show | EP9 - Choice: The Pasand
+            </a>
+            </p>
+            <p class="Channel-name">The Viral Fever &check;</p>
+            <p class="Video-Reach">1.7M views &#183; 19 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/9X4VvRj8SSU?si=_uH4KkXMaixXGdPr" target="_blank">
+          <img class="thumbnail" src="thumbnai/godlyT.jpg" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/goldyprofile.jpg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/9X4VvRj8SSU?si=_uH4KkXMaixXGdPr" target="_blank">
+              GAMERS VS. GENERAL KNOWLEDGE !! * ULTIMATE FUN * 😂😂
+            </a>
+            </p>
+            <p class="Channel-name">8bit Goldy &check;</p>
+            <p class="Video-Reach">626K views &#183; 7 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/9X4VvRj8SSU?si=_uH4KkXMaixXGdPr" target="_blank">
+          <img class="thumbnail" src="thumbnai/tanmay.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/tanmayprofile.jpeg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/9X4VvRj8SSU?si=_uH4KkXMaixXGdPr"  target="_blank" >
+              DID I ACTUALLY PLAY WELL?
+            </a>
+            </p>
+            <p class="Channel-name">Tanmay Bhat &check;</p>
+            <p class="Video-Reach">1,535,824 views &#183; Feb 29, 2020 </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/P7JyrhGnjhg?si=E8jZNUi106EUIvJA" target="_blank">
+          <img class="thumbnail" src="thumbnai/indino.jpeg" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/indinologo.jpeg"/>
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+
+              <a class="title-link"
+              href="https://youtu.be/P7JyrhGnjhg?si=E8jZNUi106EUIvJA"  target="_blank">Pritam, Soham - In Dino (Pseudo Video)
+              </a>
+              </p>
+            <p class="Channel-name">SonyMusicIndiaVEVO &check; </p>
+            <p class="Video-Reach">2.6M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/dX9CGRZwD-w?si=n7W-B8b6bf8vlTT5" target="_blank">
+          <img class="thumbnail" src="thumbnai/MICROCHIP.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="thumbnai/MICROCHIPPROFILE.jpeg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/dX9CGRZwD-w?si=n7W-B8b6bf8vlTT5" class="video-title-link"  target="_blank" >How are Microchips Made?
+              </a>
+            </p>
+            <p class="Channel-name">Branch Education &check;</p>
+            <p class="Video-Reach">1.3M views &#183; 13 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/DFg_gfDChXs?si=Yfk2ZtBGdTpaHm-I" target="_blank">
+          <img class="thumbnail" src="icons/9.webp"/>
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="icons/9.jpg"/>
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/DFg_gfDChXs?si=Yfk2ZtBGdTpaHm-I"  target="_blank" >Bigotry 101 | BJP’s Crazy Experience at a Samdish Rally in Delhi
+              </a>
+              </p>
+            <p class="Channel-name">UNFILTERED by Samdish &check;</p>
+            <p class="Video-Reach">2M views &#183; 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/Tsf4puDIH8I?si=dcdgLkFTzwAVms_0" target="_blank"></a>
+          <img class="thumbnail" src="icons/10.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="icons/10.jpeg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/Tsf4puDIH8I?si=dcdgLkFTzwAVms_0"  target="_blank" >IoT Smoke & Gas Detector using ESP8266 & Blynk 2.0
+              </a>
+              </p>
+            <p class="Channel-name">IoT Projects Ideas &check;</p>
+            <p class="Video-Reach">454 views &#183; 2 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/sKbEOMCsqaI?si=rGH-12X-agdlN4s6" target="_blank" >
+          <img class="thumbnail" src="icons/11.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="icons/11.jpeg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/sKbEOMCsqaI?si=rGH-12X-agdlN4s6 " target="_blank" > 
+                How to cool our homes (even without ACs)
+              </a>
+            </p>
+            <p class="Channel-name">DW Planet A &check;</p>
+            <p class="Video-Reach">2.4M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-Preview">
+        <div class="Thumbnail-row">
+          <a href="https://youtu.be/AfvUZpT9T1A?si=q3g7qhRRpAmc_zcN" target="_blank" >
+          <img class="thumbnail" src="icons/12.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-Picture">
+            <img class="Profile-picture" src="icons/12.jpeg" />
+          </div>
+          <div class="Video-details">
+            <p class="Video-Title">
+              <a class="title-link"
+              href="https://youtu.be/AfvUZpT9T1A?si=q3g7qhRRpAmc_zcN" target="_blank" >Solo RAIN Camping like a King [ I built a fully furnished Palace Tent, relaxing ASMR 
+              </a>
+              </p>
+            <p class="Channel-name">Go4x4 &check;</p>
+            <p class="Video-Reach">1.2M views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

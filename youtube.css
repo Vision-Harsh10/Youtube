@@ -1,0 +1,57 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.title-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+
+.Search-Box {
+    display: block;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 5px;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+}
+
+.Thumbnail-row {
+    margin-bottom: 12px;
+}
+
+.Profile-picture {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.Video-Title {
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.Channel-name {
+    font-size: 10px;
+    margin-bottom: 3px;
+    color: rgb(96, 96, 96);
+}
+
+.Video-Reach {
+    font-size: 10px;
+    color: rgb(96, 96, 96);
+}
